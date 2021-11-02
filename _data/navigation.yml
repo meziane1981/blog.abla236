@@ -1,0 +1,8 @@
+- name: Home
+  link: /Bloggy/index.html
+- name: About
+  link: /Bloggy/about.html
+- name: Blog
+  link: /Bloggy/blogs.html
+- name: Staff
+  link: /Bloggy/staff.html

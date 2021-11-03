@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
+    <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.svg">
 
     <title>{{ page.title }} | {{site.name}}</title>
 
@@ -14,6 +14,7 @@
     <link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
 
     <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
 
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
@@ -61,7 +62,7 @@
         </ul>
     </nav>
 
-    {% include search-lunr.html %}
+    <!-- {% include search-lunr.html %} -->
 
 
     <!-- End Sidebar Navigation
@@ -96,7 +97,7 @@
             {% if site.mailchimp-list %}
             <!-- Newsletter
     ================================================== -->
-            <div class="newsletter text-center">
+            <!-- <div class="newsletter text-center">
                 <span class="h4"><img src="{{ site.baseurl }}/{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
                 <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
                     <div class="mc-field-group d-inline-flex">
@@ -107,40 +108,40 @@
             </div>
             {% endif %}
 
-        </div>
+        </div> -->
 
-        <!-- Begin Footer
+            <!-- Begin Footer
 ================================================== -->
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12 text-center text-lg-left">
-                        Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
-                    </div>
-                    <div class="col-md-6 col-sm-12 text-center text-lg-right">
-                        <a target="_blank" href="https://www.wowthemes.net/memoirs-free-jekyll-theme/">Memoirs Jekyll Theme</a> by WowThemes.net
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 text-center text-lg-left">
+                            Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
+                        </div>
+                        <div class="col-md-6 col-sm-12 text-center text-lg-right">
+                            <a target="_blank" href="https://www.wowthemes.net/memoirs-free-jekyll-theme/">Memoirs Jekyll Theme</a> by WowThemes.net
+                        </div>
                     </div>
                 </div>
-            </div>
-        </footer>
-        <!-- End Footer
+            </footer>
+            <!-- End Footer
 ================================================== -->
 
-    </div>
-    <!-- /.site-content -->
+        </div>
+        <!-- /.site-content -->
 
-    <!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
+        <!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
 ================================================== -->
 
-    <script src="{{ site.baseurl }}/assets/js/prism.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/prism.js"></script>
 
-    <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
 
-    {% if site.lazyimages == "enabled" %}
-    <script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
-    {% endif %} {% if page.layout == 'post' %}
-    <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
-    {% endif %}
+        {% if site.lazyimages == "enabled" %}
+        <script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
+        {% endif %} {% if page.layout == 'post' %}
+        <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
+        {% endif %}
 
 </body>
 

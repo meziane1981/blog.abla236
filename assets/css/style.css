@@ -1,0 +1,51 @@
+body {
+    background: #C9E4CB;
+    font-family: "Akkurat", "Akkurat Mono", "Noe Display", "icomoon";
+}
+
+@font-face {
+    font-family: Akkurat;
+    src: url(fonts/AkkuratLLWeb-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: Akkurat;
+    src: url(fonts/AkkuratLLWeb-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: Akkurat;
+    src: url(fonts/AkkuratLLWeb-Bold.woff) format("woff");
+}
+
+@font-face {
+    font-family: Akkurat;
+    src: url(fonts/AkkuratLLWeb-Bold.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: Akkurat Mono;
+    src: url(fonts/AkkuratMonoLLWeb-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: Akkurat Mono;
+    src: url(fonts/AkkuratMonoLLWeb-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: Noe Display;
+    src: url(fonts/NoeDisplay-Medium.woff2) format("woff2"), url(fonts/NoeDisplay-Medium.woff) format("woff"), url(fonts/NoeDisplay-Medium.ttf) format("truetype"), url(fonts/NoeDisplay-Medium.svg#NoeDisplay-Medium) format("svg");
+}
+
+@font-face {
+    font-family: icomoon;
+    src: url(fonts/icomoon.eot?61d58u);
+    src: url(fonts/icomoon.eot?61d58u#iefix) format("embedded-opentype"), url(fonts/icomoon.ttf?61d58u) format("truetype"), url(fonts/icomoon.woff?61d58u) format("woff"), url(fonts/icomoon.svg?61d58u#icomoon) format("svg");
+}
+
+.badge-primary {
+    background-color: #012c44;
+    color: #fff;
+    border-radius: 100px;
+}

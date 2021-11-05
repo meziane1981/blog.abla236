@@ -191,6 +191,7 @@ sup {
 // Links
 //
 a {
+    border-radius: 25rem;
     color: $link-color;
     text-decoration: $link-decoration;
     background-color: transparent; // Remove the gray background on active links in IE 10.
@@ -468,4 +469,9 @@ template {
 // Needed for proper display in IE 10-.
 [hidden] {
     display: none !important;
+}
+
+p {
+    font: 18px/24px Akkurat, Helvetica, sans-serif;
+    line-height: 2;
 }

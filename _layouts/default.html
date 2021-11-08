@@ -56,23 +56,27 @@
     <!-- <h3>Navigation</h3> -->
 
     <!-- =============ajoute de menu==================== -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active bg-accueil">
-                    <a class="nav-link " href="https://abla.io/">Accueil<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item bg-blog">
-                    <a class="nav-link" href=" {{ site.baseurl }}/ ">Blog</a>
-                </li>
 
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}"></a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav  ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://abla.io/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href=" {{ site.baseurl }}/ ">Blog</a>
+                    </li>
+
+                </ul>
+            </div>
         </div>
     </nav>
+
 
 
     <!-- ============================================ -->
